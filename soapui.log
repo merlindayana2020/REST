@@ -1,0 +1,23 @@
+2020-12-04 15:41:43,217 WARN  [SoapUI] Missing folder [C:\Users\MerlinR\Desktop\Full Stack Tester\API - Assignment\REST\ext] for external libraries
+2020-12-04 15:41:43,496 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\MerlinR\soapui-settings.xml]
+2020-12-04 15:41:47,031 INFO  [WsdlProject] Loaded project from [file:/C:/Users/MerlinR/Desktop/Full%20Stack%20Tester/API%20-%20Assignment/REST/Assignment-REST-Automation-soapui-project.xml]
+2020-12-04 15:41:47,640 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Assignment-REST_Automation]
+2020-12-04 15:41:47,642 INFO  [SoapUITestCaseRunner] Running Project [Assignment-REST_Automation], runType = SEQUENTIAL
+2020-12-04 15:41:47,661 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+2020-12-04 15:41:47,683 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2020-12-04 15:42:03,177 INFO  [HttpClientSupport$SoapUIHttpClient] I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond
+2020-12-04 15:42:03,226 INFO  [HttpClientSupport$SoapUIHttpClient] Retrying request
+2020-12-04 15:42:05,662 INFO  [log] {"category_description":[{"name":"Computers & Accessories sample","meta_title":"Computers & Accessories sample","language_id":[1]}]}
+2020-12-04 15:42:06,884 INFO  [log] 12
+2020-12-04 15:42:06,889 INFO  [SoapUITestCaseRunner] running step [TokenCreation]
+2020-12-04 15:42:07,281 INFO  [SoapUITestCaseRunner] running step [LogIn]
+2020-12-04 15:42:07,678 INFO  [SoapUITestCaseRunner] running step [AddNewCat]
+2020-12-04 15:42:08,087 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-04 15:42:08,088 INFO  [SoapUITestCaseRunner] running step [GetCatById]
+2020-12-04 15:42:08,510 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-04 15:42:08,515 INFO  [SoapUITestCaseRunner] running step [EditCatById]
+2020-12-04 15:42:08,886 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-04 15:42:08,887 INFO  [SoapUITestCaseRunner] running step [GetCatByIdAfterEdit]
+2020-12-04 15:42:09,363 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-04 15:42:09,363 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 21556ms, status: FINISHED
+2020-12-04 15:42:09,366 INFO  [SoapUITestCaseRunner] Project [Assignment-REST_Automation] finished with status [FINISHED] in 21718ms
